@@ -1,5 +1,4 @@
-# Replace Header Right with Header Nav Menu
-
+=== Replace Header Right with Header Nav Menu ===
 Contributors: cgrymala
 Donate link: http://giving.umw.edu/
 Tags: genesis, widgets, menus, max mega menu
@@ -11,15 +10,15 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Removes the Header Right widget area in a Genesis theme & replaces it with a nav menu location called "Header"
 
-## Description
+== Description ==
 
 This plugin unregisters the Header Right widget area within a Genesis-based theme, and replaces it with a custom nav menu location called "Header Menu". This stops site administrators from being able to add widgets to the header right area, and allows the use of a Max Mega Menu navigation menu within that area.
 
-## Installation
+== Installation ==
 
 1. Upload `genesis-header-right.php` to the `/wp-content/mu-plugins/` directory
 
-## Changelog
+== Changelog ==
 
-### 0.1
+= 0.1 =
 * Initial version
