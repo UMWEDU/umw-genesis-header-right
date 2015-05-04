@@ -20,6 +20,8 @@ if ( ! class_exists( 'UMW_Header_Right' ) ) {
 		}
 		
 		function register_nav_menus() {
+			if ( ! function_exists( 'genesis' ) )
+				return false;
 			register_nav_menu( 'header-right', __( 'Header Menu' ) );
 		}
 		
