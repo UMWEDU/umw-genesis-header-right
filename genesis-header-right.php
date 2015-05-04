@@ -10,9 +10,6 @@
 if ( ! class_exists( 'UMW_Header_Right' ) ) {
 	class UMW_Header_Right {
 		function __construct() {
-			if ( ! function_exists( 'genesis' ) )
-				return false;
-			
 			add_action( 'after_setup_theme', array( $this, 'unregister_sidebars' ) );
 			add_action( 'after_setup_theme', array( $this, 'register_nav_menus' ) );
 			add_action( 'genesis_header_right', array( $this, 'do_header_right' ) );
