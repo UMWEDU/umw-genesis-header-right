@@ -1,13 +1,20 @@
 # Replace Header Right with Header Nav Menu
 
-Contributors: cgrymala
-Donate link: http://giving.umw.edu/
-Tags: genesis, widgets, menus, max mega menu
-Requires at least: 4.2
-Tested up to: 4.2.1
-Stable tag: 0.1
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+**Contributors:** cgrymala
+
+**Donate link:** http://giving.umw.edu/
+
+**Tags:** genesis, widgets, menus, max mega menu
+
+**Requires at least:** 4.2
+
+**Tested up to:** 4.2.1
+
+**Stable tag:** 0.1
+
+**License:** GPLv2 or later
+
+**License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
 Removes the Header Right widget area in a Genesis theme & replaces it with a nav menu location called "Header"
 
