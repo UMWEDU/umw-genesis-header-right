@@ -23,6 +23,9 @@ if ( ! class_exists( 'UMW_Header_Right' ) ) {
 		function register_nav_menus() {
 			if ( ! function_exists( 'genesis' ) )
 				return false;
+			if ( isset( $GLOBALS['umw_outreach_mods_obj'] ) && ! is_a( $GLOBALS['umw_outreach_mods_obj'], 'UMW_Outreach_Mods' ) ) {
+				return;
+			}
 			register_nav_menu( 'header-right', __( 'Header Menu' ) );
 		}
 		
